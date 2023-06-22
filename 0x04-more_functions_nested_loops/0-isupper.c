@@ -1,22 +1,25 @@
 #include "main.h"
 
 /**
- *_isupper - entry point
+ * _isupper - uppercase letters
+ * @c: char to check
  *
- *@c: the int to print
- *
- *Return: always 0 (success)
+ * Return: 0 or 1
  */
 
 int _isupper(int c)
+
 {
-if (c > 64 && c < 91)
-{
+
+if (c >= 'A' && c <= 'Z')
+
 return (1);
-}
+
 else
-{
+
 return (0);
-}
 
 }
+
+
+
